@@ -19,8 +19,8 @@ function Footer() {
                 <li> <a  className="hover:text-white"  href="">Terms and Condition</a> </li>
             </ul>
         </div>
-        <div>
-            <h1 className="text-[18px] font-bold mb-[10px]">Follow Us</h1>
+        <div className="text-center ">
+            <h1 className="text-[18px] font-bold mb-[10px] ">Follow Us</h1>
             <div className="flex gap-5 justify-center md:justify-start">
               <FaFacebook/> 
               <FaXTwitter/>  
