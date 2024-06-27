@@ -25,7 +25,7 @@ function TopSelling() {
    <div className="flex  flex-wrap gap-5" >
       {topSelling.map((item)=>(
         <Card  key={item._id}>
-          <Link to={`/detail/${item._id}`}> <img src={ "http://localhost:3000/" + item.img} alt="" className="h-[200px]" /></Link>
+          <Link to={`/detail/${item._id}`}> <img src={ "https://technotronix-backend-3jcs.onrender.com/" + item.img} alt="" className="h-[200px]" /></Link>
            <p className="font-bold " >{item.name}</p>
            <p>#{item.price}</p>
            <button  onClick={isAuthenticated ? ()=> addToCart(item._id) : login } className="bg-orange-500 text-while  p-[10px] rounded mt-[10px]">Add to cart</button>

@@ -59,7 +59,7 @@
         "name": "Lexus Es350",
         "img": "/img/benz-4.jpg",
         "price": 620,
-        "featured": false,
+        "featured": true,
         "topSelling":false
     },
     {
@@ -75,7 +75,7 @@
         "name": "Benz GLE 450",
         "img": "/img/lexus-1.jpg",
         "price": 850,
-        "featured": false,
+        "featured": true,
         "topSelling":false
     },
     {
@@ -101,14 +101,14 @@
         "img": "/img/Honda-4.jpg",
         "price": 230,
         "featured": false,
-        "topSelling":false
+        "topSelling":true
     },
     {
        "id": 12,
         "name": "Toyota Avensis",
         "img":"/img/toyota-1.jpg",
         "price": 260,
-        "featured": false,
+        "featured": true,
         "topSelling":false
     }
    
