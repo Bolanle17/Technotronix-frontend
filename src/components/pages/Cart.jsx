@@ -46,7 +46,7 @@ function Cart() {
                     </td>
                     <td>{item.product.price}</td>
                     <td>
-                        <input type="number" className="outline outline-1" value={item.quantity} min="1" onChange={(e)=> updateQuantity(item.product._id, e.target.value)}/>
+                        <input type="number" className="outline outline-1 w-[50px]" value={item.quantity} min="1" onChange={(e)=> updateQuantity(item.product._id, e.target.value)}/>
                     </td>
                     <td>{item.amount}</td>
                 </tr>

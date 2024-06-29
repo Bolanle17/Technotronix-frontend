@@ -44,7 +44,7 @@ function Checkout() {
   }
 
  return (
-    <div className="flex gap-5 m-[5%]">
+    <div className="flex  flex-col lg:flex-row gap-5 m-[5%]">
         <div className="w-[50%]"> 
         <h1 className="font-bold text-center mb-5">Order Summary</h1>
         <table className="w-[90%] mx-auto h-[30vh]">
